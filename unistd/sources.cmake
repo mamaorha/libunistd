@@ -34,6 +34,7 @@ clock_gettime.cpp
 dirent.cpp
 fnmatch.cpp
 fts.c
+getline.cpp
 getopt.cpp
 gettimeofday.cpp
 netdb.c
