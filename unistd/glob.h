@@ -9,6 +9,9 @@
 #include "../portable/stub.h"
 
 #ifdef __cplusplus
+#ifndef restrict
+#define restrict
+#endif
 extern "C" {
 #else
 #define inline __inline
