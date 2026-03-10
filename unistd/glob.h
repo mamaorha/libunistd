@@ -8,6 +8,12 @@
 //#include "unistd.h"
 #include "../portable/stub.h"
 
+#if defined(_WIN32) && defined(__cplusplus)
+#ifndef restrict
+#define restrict __restrict
+#endif
+#endif
+
 #ifdef __cplusplus
 extern "C" {
 #else
